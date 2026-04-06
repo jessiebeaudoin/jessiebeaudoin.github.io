@@ -175,6 +175,33 @@ As a Michigan State Campus Intern with CDW, I partner with CDW, MSU’s IT depar
         <p><a href="https://www.linkedin.com/in/jessica-beaudoin-/" target="_blank">LinkedIn</a></p>
       </div>
     </div>
+
+    <!-- Formspree Contact Form -->
+    <div class="contact-form-container">
+      <form action="https://formspree.io/f/mvzbravg" method="POST">
+
+        <label for="full_name">Full Name</label>
+        <input id="full_name" name="full_name" type="text" required>
+
+        <label for="email_address">Email Address</label>
+        <input id="email_address" name="email_address" type="email" required>
+
+        <label for="contact_reason">Reason for Contact</label>
+        <select id="contact_reason" name="contact_reason" required>
+          <option value="">Select one</option>
+          <option value="general">General Question</option>
+          <option value="project">Project Inquiry</option>
+          <option value="collaboration">Collaboration</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn btn-color-1">Send Message</button>
+
+      </form>
+    </div>
   </section>
 
   <footer>
